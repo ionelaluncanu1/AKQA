@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* Desktop/Body text/Normal/16 */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 20.8px */
+}
+.infoText {
+  color: #757575;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.customCarousel {
+  width: 1312px;
+  height: 600px;
+}
+
+[aria-label="slide"] {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+{
+  "data": {
+    "elastic": [
+      {
+        "id": 1,
+        "title": "Photoshoots",
+        "imageUrl": "/assets/images/slide.svg"
+      },
+      {
+        "id": 2,
+        "title": "Adventure",
+        "imageUrl": "/assets/images/slide.svg"
+      },
+      {
+        "id": 3,
+        "title": "Events",
+        "imageUrl": "/assets/images/slide.svg"
+      },
+      {
+        "id": 4,
+        "title": "Discovery",
+        "imageUrl": "/assets/images/slide.svg"
+      },
+      {
+        "id": 5,
+        "title": "Sports",
+        "imageUrl": "/assets/images/slide.svg"
+      }
+    ]
+  }
+}
