@@ -1,14 +1,15 @@
 "use client";
 import importedData from "@/app/data.json";
+import { useState } from "react";
 import CommonSlider from "./utils/slider";
 
-export default function MostLovedSlider() {
-  const data = importedData.mostLoved;
+export default function NewArrivals() {
+  const [data, setData] = useState(importedData);
   return (
     <div className="mx-auto max-w-7xl">
       <div className="mx-auto max-w-2xl py-20 sm:py-24 lg:max-w-none">
         <div className="flex justify-between align-baseline">
-          <h2 className="text-2xl">Most Loved</h2>
+          <h2 className="text-2xl">New Arrivals</h2>
           <div>
             <button className="bg-gray-100 rounded-full py-2 px-6">
               See all
@@ -18,7 +19,7 @@ export default function MostLovedSlider() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-6 h-6 mt-1"
+                className="w-6 h-6"
               >
                 <path
                   fill-rule="evenodd"
@@ -44,7 +45,7 @@ export default function MostLovedSlider() {
           </div>
         </div>
 
-        <CommonSlider data={data} />
+        <CommonSlider data={data.newArrivals} />
       </div>
     </div>
   );

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -45,4 +48,8 @@ body {
   width: 8px !important;
   height: 8px !important;
   border-radius: 50%;
+}
+
+.h-560px {
+  height: 560px;
 }

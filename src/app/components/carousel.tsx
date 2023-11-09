@@ -5,8 +5,8 @@ import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import imageSlide1 from "../assets/images/slide1.png";
-import imageSlide2 from "../assets/images/slide2.png";
+import imageSlide1 from "../../../public/images/slide1.png";
+import imageSlide2 from "../../../public/images/slide2.png";
 const Slider = () => {
   return (
     <Carousel

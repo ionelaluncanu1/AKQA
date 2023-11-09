@@ -1,31 +1,133 @@
 {
-  "data": {
-    "elastic": [
-      {
-        "id": 1,
-        "title": "Photoshoots",
-        "imageUrl": "/assets/images/slide.svg"
-      },
-      {
-        "id": 2,
-        "title": "Adventure",
-        "imageUrl": "/assets/images/slide.svg"
-      },
-      {
-        "id": 3,
-        "title": "Events",
-        "imageUrl": "/assets/images/slide.svg"
-      },
-      {
-        "id": 4,
-        "title": "Discovery",
-        "imageUrl": "/assets/images/slide.svg"
-      },
-      {
-        "id": 5,
-        "title": "Sports",
-        "imageUrl": "/assets/images/slide.svg"
-      }
-    ]
-  }
+  "womenShoes": [
+    {
+      "id": 0,
+      "name": "image1",
+      "url": "/images/2by21.png",
+      "title": "Slip into exceptional",
+      "subtitle": "Iconic summer style from day to night. Feel-good summer energy at home and on holiday."
+    },
+    {
+      "id": 1,
+      "name": "test2",
+      "url": "/images/2by22.jpeg",
+      "title": "It's how you wear them",
+      "subtitle": "Take modern life in your stride."
+    }
+  ],
+  "mostLoved": [
+    {
+      "id": 0,
+      "name": "item1",
+      "url": "/images/ml1.png",
+      "brand": "Exowrap",
+      "description": "Women's Sandal",
+      "colors": "2 Colors",
+      "price": "$ 120.00"
+    },
+    {
+      "id": 1,
+      "name": "item2",
+      "url": "/images/ml2.png",
+      "brand": "Offroad",
+      "description": "Women's Sandal",
+      "colors": "2 Colors",
+      "price": "$ 160.00",
+      "oldPrice": "$ 200.00"
+    },
+    {
+      "id": 2,
+      "name": "item3",
+      "url": "/images/ml3.png",
+      "brand": "Exowrap",
+      "description": "Women's Sandal",
+      "colors": "2 Colors",
+      "price": "$ 90.00"
+    },
+    {
+      "id": 3,
+      "name": "item4",
+      "url": "/images/ml4.png",
+      "brand": "Trinsic",
+      "description": "Women's Sandal",
+      "colors": "2 Colors",
+      "price": "$ 89.00"
+    },
+    {
+      "id": 4,
+      "name": "item5",
+      "url": "/images/ml5.png",
+      "brand": "Flowt LX",
+      "description": "Women's Sandal",
+      "colors": "2 Colors",
+      "price": "$ 110.00"
+    }
+  ],
+  "leatherGoods": [
+    {
+      "id": 0,
+      "url": "/images/lg1.jpg",
+      "title": "Metalic Rise",
+      "subtitle": "A limited edition collection."
+    },
+    {
+      "id": 1,
+      "url": "/images/lg2.png",
+      "title": "Discover SS22",
+      "subtitle": "Small bags make a big impact with organic shaped patchworks. Wear them like jewellery."
+    },
+    {
+      "id": 2,
+      "url": "/images/lg3.png",
+      "title": "Meet the designers",
+      "subtitle": "Learn how the masterminds behind our products craft the collections."
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 0,
+      "name": "item1",
+      "url": "/images/na1.png",
+      "brand": "Product Name",
+      "description": "Category",
+      "colors": "2 Colors",
+      "price": "$ 000.00"
+    },
+    {
+      "id": 1,
+      "name": "item2",
+      "url": "/images/na2.png",
+      "brand": "Product Name",
+      "description": "Category",
+      "colors": "2 Colors",
+      "price": "$ 000.00"
+    },
+    {
+      "id": 2,
+      "name": "item3",
+      "url": "/images/na3.png",
+      "brand": "Product Name",
+      "description": "Category",
+      "colors": "2 Colors",
+      "price": "$ 000.00"
+    },
+    {
+      "id": 3,
+      "name": "item4",
+      "url": "/images/na4.png",
+      "brand": "Product Name",
+      "description": "Category",
+      "colors": "2 Colors",
+      "price": "$ 000.00"
+    },
+    {
+      "id": 4,
+      "name": "item5",
+      "url": "/images/na5.png",
+      "brand": "Trinsic",
+      "description": "Category",
+      "colors": "2 Colors",
+      "price": "$ 000.00"
+    }
+  ]
 }

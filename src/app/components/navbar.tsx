@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../assets/images/AKQA-Logo.svg";
+import logo from "../../../public/images/AKQA-Logo.svg";
 
 export default function Navbar() {
   return (
