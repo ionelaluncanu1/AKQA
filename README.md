@@ -1,4 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+It contains a bootstrap carousel, but also two sliders using [React Slick][https://react-slick.neostack.com/]
+Rest of the components are made using [Tailwindcss][https://tailwindcss.com/]
+
+Download or clone the repository, run :
+
+```bash
+npm install
+```
+
+and get ready to run the app.
 
 ## Getting Started
 
